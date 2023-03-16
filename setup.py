@@ -6,11 +6,9 @@ requirements = ["fastapi", "uvicorn", "pandas"]
 
 setup(
     name="deposit_api",
-    version="1.0",
-    description="Deposit calculating",
+    version="1.0.1",
+    description="Deposit calculation",
     author="Korpusova Julia",
-    author_email="gward@python.net",
-    # url='https://www.python.org/sigs/distutils-sig/',
     packages=["deposit_api"],
     install_requires=requirements,
     entry_points={"console_scripts": ["deposits = deposit_api.app:app"]},
