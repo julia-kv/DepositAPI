@@ -23,4 +23,4 @@ async def calc_dep(request: Data):
 
 
 if __name__ == "__main__":
-    uvicorn.run("deposit_api.app:app", host="0.0.0.0", port=8000)
+    uvicorn.run("deposit_api.app:app", host="0.0.0.0", port=8080)

@@ -2,9 +2,9 @@ FROM python:3.8.13-slim-buster
 
 COPY setup.py /setup.py
 
-RUN pip install .
-
 COPY deposit_api /deposit_api
+
+RUN pip install .
 
 WORKDIR /deposit_api
 
