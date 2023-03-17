@@ -4,3 +4,4 @@ venv
 deposit_api.egg-info
 deposit_api/__pycache__
 tests/__pycache__
+.coverage

@@ -1,5 +1,4 @@
 pytest
+pytest-cov
 httpx
-pylint
-flake8
 black
